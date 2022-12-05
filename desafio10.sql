@@ -1,0 +1,1 @@
+SELECT  f.Nome, gen.Genero FROM Filmes AS f JOIN FilmesGenero AS g ON f.Id =  g.IdFilme JOIN Generos AS gen ON gen.Id = g.IdGenero;

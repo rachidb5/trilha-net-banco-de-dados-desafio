@@ -1,0 +1,1 @@
+SELECT * FROM Atores WHERE genero = 'M';
